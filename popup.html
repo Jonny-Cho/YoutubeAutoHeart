@@ -2,18 +2,24 @@
 <html>
   <head>
     <style>
-      button#giveHeart {
+      button {
         height: 30px;
         width: 100px;
         outline: none;
         border: none;
-        color: red;
         cursor: pointer;
         background-color: transparent;
+      }
+      #giveHeart {
+        color: red;
+      }
+      #giveLike{
+        color: blue;
       }
     </style>
   </head>
   <body>
+    <button id="giveLike">Auto Like</button>
     <button id="giveHeart">Auto Heart</button>
     <script src="popup.js"></script>
   </body>
